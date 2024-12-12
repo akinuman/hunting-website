@@ -1,9 +1,9 @@
+@import "./styles/swiper.css";
+@import "./styles/animations.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import './styles/swiper.css';
-@import './styles/animations.css';
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -15,5 +15,5 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #E5E9ED;
+  background-color: #e5e9ed;
 }
