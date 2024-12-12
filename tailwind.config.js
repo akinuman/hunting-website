@@ -7,10 +7,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        'hunting-green': '#2C5530',
-        'earth-brown': '#8B4513',
-        'camo-light': '#A9A778',
-        'camo-dark': '#4A4B35'
+        'tactical-gray': '#F5F7F9',
+        'dark-steel': '#2A2D34',
+        'gunmetal': '#424B54',
+        'silver-mist': '#E5E9ED',
+        'accent-gold': '#D4AF37',
+      },
+      animation: {
+        'float': 'float 6s ease-in-out infinite',
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        }
       }
     }
   },
