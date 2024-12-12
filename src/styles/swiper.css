@@ -1,0 +1,29 @@
+/* Swiper Styles */
+.product-showcase-swiper {
+  padding: 50px 0;
+}
+
+.product-showcase-swiper .swiper-slide {
+  width: 500px;
+  height: auto;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #424B54;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #B8860B;
+}
+
+.testimonials-swiper .swiper-slide {
+  height: auto;
+}
+
+.testimonials-swiper {
+  padding-bottom: 16px !important;
+}
